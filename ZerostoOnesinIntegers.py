@@ -1,0 +1,5 @@
+n = input()
+n = list(n)
+new_num = ''.join(['1' if i == '0' else i for i in n])
+new_num = int(new_num)
+print(new_num)
